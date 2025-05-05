@@ -46,7 +46,7 @@ public class VendaTest {
     }
 
     @Test
-    public void TestarDiminuicaoEstoqueAposVenda() {
+    public void TestarAumentoEstoqueAposVenda() {
         Produto produto = new Produto("Ps4", 1500.00, 7);
         Venda venda = new Venda(produto, 4);
         boolean resultado = venda.realizarVenda();
@@ -59,7 +59,7 @@ public class VendaTest {
     }
 
     @Test
-    public void TestarAumentoEstoqueAposVenda() {
+    public void TestarDiminuicaoEstoqueAposVenda() {
         Produto produto = new Produto("Ps4", 1500.00, 7);
         Venda venda = new Venda(produto, 4);
         boolean resultado = venda.realizarVenda();
