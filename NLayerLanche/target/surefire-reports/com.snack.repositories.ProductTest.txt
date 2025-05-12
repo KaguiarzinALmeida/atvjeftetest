@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.snack.repositories.ProductTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.070 s <<< FAILURE! -- in com.snack.repositories.ProductTest
+com.snack.repositories.ProductTest.verificarSeOProdutoEstaNoArray -- Time elapsed: 0.028 s <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.snack.repositories.ProductRepository.getById(ProductRepository.java:17)
+	at com.snack.repositories.ProductTest.verificarSeOProdutoEstaNoArray(ProductTest.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
